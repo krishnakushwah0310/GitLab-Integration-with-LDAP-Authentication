@@ -8,7 +8,12 @@ Deploy GitLab with LDAP authentication and secure HTTPS using a self-signed cert
 ### Objective
 The objective of this configuration is to deploy **GitLab** on a Linux server and integrate it with an **LDAP server** for centralized authentication. GitLab is secured using **HTTPS** with a self-signed SSL certificate and made accessible using a custom domain name.
 ___
-
+> ⚠️ Important Notes:
+> - Replace all placeholder values (`<LDAP_SERVER_IP>`, `<LDAP_ADMIN_PASSWORD>`, domain names) carefully.
+> - This setup is intended for **local/private networks**.
+> - Self-signed certificates will trigger browser warnings (expected behavior).
+> - Ensure LDAP is fully functional before integrating with GitLab.
+---
 
 ## 1. Server Preparation & GitLab Installation (Ubuntu/Debian)
 
