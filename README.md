@@ -146,12 +146,13 @@ Or open in browser:
 https://git.example.local
 ```
 
+
+## Optional: Run GitLab on Custom Port (e.g., 8443)
+
 ---
 > Use this section only if port 443 is already in use (for example, by Apache).
 
 ---
-
-## Optional: Run GitLab on Custom Port (e.g., 8443)
 
 - Paste the following configuration **as-is** and then replace placeholders:
 ```bash
