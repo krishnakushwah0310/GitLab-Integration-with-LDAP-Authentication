@@ -145,6 +145,7 @@ Or open in browser:
 ```
 https://git.example.local
 ```
+---
 
 
 ## Optional: Run GitLab on Custom Port (e.g., 8443)
