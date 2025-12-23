@@ -159,14 +159,13 @@ https://git.example.local
 > Use this section only if port 443 is already in use (for example, by Apache).
 
 ---
-
-- Paste the following configuration **as-is** and then replace placeholders:
 ```bash
 sudo nano /etc/gitlab/gitlab.rb
 ```
  Paste this at the absolute end of the file
 
 press  (`ESC` → `/` → `past`)
+- Paste the following configuration **as-is** and then replace placeholders:
 
 
 ```
