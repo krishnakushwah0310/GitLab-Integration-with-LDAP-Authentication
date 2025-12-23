@@ -52,6 +52,8 @@ Verify files created:
 
 ```bash
 ls -l /etc/gitlab/ssl/
+```
+```
 # Output should show:
 # git.example.local.crt
 # git.example.local.key
@@ -62,6 +64,9 @@ ls -l /etc/gitlab/ssl/
 ```bash
 sudo nano /etc/gitlab/gitlab.rb
 ```
+ Paste this at the absolute end of the file
+
+press  (`ESC` → `/` → `past`)
 
 - Paste the following configuration **as-is** and then replace placeholders:
 
@@ -159,6 +164,9 @@ https://git.example.local
 ```bash
 sudo nano /etc/gitlab/gitlab.rb
 ```
+ Paste this at the absolute end of the file
+
+press  (`ESC` → `/` → `past`)
 
 
 ```
